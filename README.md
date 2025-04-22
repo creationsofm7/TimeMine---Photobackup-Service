@@ -1,6 +1,6 @@
 # TimeReel
 
-A monorepo project with Django backend and React (Vite) frontend.
+A monorepo project with Django backend and Remix (Vite) frontend.
 
 ## Project Structure
 
