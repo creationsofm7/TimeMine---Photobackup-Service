@@ -1,0 +1,16 @@
+{
+  "name": "timereel",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && .\\venv\\Scripts\\python manage.py runserver",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
